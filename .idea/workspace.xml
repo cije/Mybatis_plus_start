@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ef09904-769f-43d7-a093-e02c0eea58ef" name="默认更改列表" comment="" />
+    <list default="true" id="4ef09904-769f-43d7-a093-e02c0eea58ef" name="默认更改列表" comment="Mybatis plus 入门">
+      <change afterPath="$PROJECT_DIR$/crud/src/test/java/com/ce/crud/ARTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/src/main/java/com/ce/crud/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/main/java/com/ce/crud/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/target/classes/com/ce/crud/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/crud/target/classes/com/ce/crud/entity/User.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +22,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -25,6 +33,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1iljveE2LRsb9UpP5Dd9aHR56F1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="添加" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -65,7 +76,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DeleteTest.deleteByWrapper">
+  <component name="RunManager" selected="JUnit.ARTest.insertOrUpdate">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -79,7 +90,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteTest.deleteBatchIds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ARTest.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="crud" />
       <extension name="coverage">
         <pattern>
@@ -88,14 +99,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ce.crud" />
-      <option name="MAIN_CLASS_NAME" value="com.ce.crud.DeleteTest" />
-      <option name="METHOD_NAME" value="deleteBatchIds" />
+      <option name="MAIN_CLASS_NAME" value="com.ce.crud.ARTest" />
+      <option name="METHOD_NAME" value="insert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteTest.deleteById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ARTest.insertOrUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="crud" />
       <extension name="coverage">
         <pattern>
@@ -104,14 +115,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ce.crud" />
-      <option name="MAIN_CLASS_NAME" value="com.ce.crud.DeleteTest" />
-      <option name="METHOD_NAME" value="deleteById" />
+      <option name="MAIN_CLASS_NAME" value="com.ce.crud.ARTest" />
+      <option name="METHOD_NAME" value="insertOrUpdate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteTest.deleteByMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ARTest.selectById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="crud" />
       <extension name="coverage">
         <pattern>
@@ -120,14 +131,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ce.crud" />
-      <option name="MAIN_CLASS_NAME" value="com.ce.crud.DeleteTest" />
-      <option name="METHOD_NAME" value="deleteByMap" />
+      <option name="MAIN_CLASS_NAME" value="com.ce.crud.ARTest" />
+      <option name="METHOD_NAME" value="selectById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteTest.deleteByWrapper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ARTest.selectById2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="crud" />
       <extension name="coverage">
         <pattern>
@@ -136,14 +147,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ce.crud" />
-      <option name="MAIN_CLASS_NAME" value="com.ce.crud.DeleteTest" />
-      <option name="METHOD_NAME" value="deleteByWrapper" />
+      <option name="MAIN_CLASS_NAME" value="com.ce.crud.ARTest" />
+      <option name="METHOD_NAME" value="selectById2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpdateTest.updateByWrapperLambdaChain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ARTest.updateById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="crud" />
       <extension name="coverage">
         <pattern>
@@ -152,8 +163,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ce.crud" />
-      <option name="MAIN_CLASS_NAME" value="com.ce.crud.UpdateTest" />
-      <option name="METHOD_NAME" value="updateByWrapperLambdaChain" />
+      <option name="MAIN_CLASS_NAME" value="com.ce.crud.ARTest" />
+      <option name="METHOD_NAME" value="updateById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -175,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DeleteTest.deleteByWrapper" />
-        <item itemvalue="JUnit.DeleteTest.deleteBatchIds" />
-        <item itemvalue="JUnit.DeleteTest.deleteByMap" />
-        <item itemvalue="JUnit.DeleteTest.deleteById" />
-        <item itemvalue="JUnit.UpdateTest.updateByWrapperLambdaChain" />
+        <item itemvalue="JUnit.ARTest.insertOrUpdate" />
+        <item itemvalue="JUnit.ARTest.updateById" />
+        <item itemvalue="JUnit.ARTest.selectById2" />
+        <item itemvalue="JUnit.ARTest.selectById" />
+        <item itemvalue="JUnit.ARTest.insert" />
       </list>
     </recent_temporary>
   </component>
@@ -199,12 +210,24 @@
       <workItem from="1602493517728" duration="3992000" />
       <workItem from="1602510178282" duration="5352000" />
       <workItem from="1602547662554" duration="5707000" />
-      <workItem from="1602567372474" duration="4796000" />
+      <workItem from="1602567372474" duration="7187000" />
     </task>
+    <task id="LOCAL-00001" summary="Mybatis plus 入门">
+      <created>1602572551541</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602572551541</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Mybatis plus 入门" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mybatis plus 入门" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1156" y="347" key="#Notifications" timestamp="1602567389737">
@@ -231,26 +254,26 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="518" y="249" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.738@0.0.1366.738" timestamp="1602490103413" />
-    <state width="1078" height="417" key="GridCell.Tab.0.bottom" timestamp="1602572098252">
+    <state width="1078" height="417" key="GridCell.Tab.0.bottom" timestamp="1602574820761">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1322" height="242" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1602515591179" />
-    <state width="1078" height="417" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1602572098252" />
-    <state width="1078" height="417" key="GridCell.Tab.0.center" timestamp="1602572098252">
+    <state width="1078" height="417" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1602574820761" />
+    <state width="1078" height="417" key="GridCell.Tab.0.center" timestamp="1602574820761">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1322" height="242" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1602515591178" />
-    <state width="1078" height="417" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1602572098252" />
-    <state width="1078" height="417" key="GridCell.Tab.0.left" timestamp="1602572098252">
+    <state width="1078" height="417" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1602574820761" />
+    <state width="1078" height="417" key="GridCell.Tab.0.left" timestamp="1602574820760">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1322" height="242" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1602515591178" />
-    <state width="1078" height="417" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1602572098252" />
-    <state width="1078" height="417" key="GridCell.Tab.0.right" timestamp="1602572098252">
+    <state width="1078" height="417" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1602574820760" />
+    <state width="1078" height="417" key="GridCell.Tab.0.right" timestamp="1602574820761">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1322" height="242" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1602515591179" />
-    <state width="1078" height="417" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1602572098252" />
+    <state width="1078" height="417" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1602574820761" />
     <state width="1240" height="528" key="GridCell.Tab.1.bottom" timestamp="1602569114542">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

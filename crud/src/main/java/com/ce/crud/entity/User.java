@@ -5,17 +5,19 @@ import com.baomidou.mybatisplus.annotation.SqlCondition;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
+import com.baomidou.mybatisplus.extension.activerecord.Model;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 /**
+ *
  * @author c__e
  * @date Created in 2020/10/12 16:05
  */
 @TableName("user")
-public class User {
+public class User extends Model<User> {
     /**
      * 主键
      */
@@ -131,7 +133,7 @@ public class User {
                 ", age=" + age +
                 ", email='" + email + '\'' +
                 ", managerId=" + managerId +
-                ", createTime=" + createTime +
+                ", createTime=" + createTime.format(DateTimeFormatter.ofPattern("yyyy-MM-dd")) +
                 '}';
     }
 }
