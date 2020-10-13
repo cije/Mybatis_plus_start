@@ -16,5 +16,10 @@ mybatis-plus:
     - mapper/*
   global-config:
     db-config:
+    #      table-prefix: mp_ 表名前缀
     # 全局 主键策略
-#      id-type: uuid
+    #id-type: uuid
+  #config-location: classpath:mybatis-plus.xml
+  type-aliases-package: com.ce.crud.entity
+  configuration:
+    map-underscore-to-camel-case: true  # 默认 true
