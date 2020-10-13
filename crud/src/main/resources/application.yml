@@ -14,3 +14,7 @@ logging:
 mybatis-plus:
   mapper-locations:
     - mapper/*
+  global-config:
+    db-config:
+    # 全局 主键策略
+#      id-type: uuid
