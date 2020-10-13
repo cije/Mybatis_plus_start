@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4ef09904-769f-43d7-a093-e02c0eea58ef" name="默认更改列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\Program Files\JetBrains\IntelliJ IDEA 2020.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iljveE2LRsb9UpP5Dd9aHR56F1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/crud/src/test/resources" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.21180555" />
+    <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.JRebelSettingsComponent" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ce.first" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ce.crud" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\onedrive\IdeaProjects\Mybatis_plus_demo\crud\src\test\resources" />
+      <recent name="F:\onedrive\IdeaProjects\Mybatis_plus_demo" />
+      <recent name="F:\onedrive\IdeaProjects\Mybatis_plus_demo\crud\src\main\java\com\ce\crud" />
+      <recent name="F:\onedrive\IdeaProjects\Mybatis_plus_demo\crud\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.DeleteTest.deleteByWrapper">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteTest.deleteBatchIds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ce.crud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ce.crud" />
+      <option name="MAIN_CLASS_NAME" value="com.ce.crud.DeleteTest" />
+      <option name="METHOD_NAME" value="deleteBatchIds" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteTest.deleteById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ce.crud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ce.crud" />
+      <option name="MAIN_CLASS_NAME" value="com.ce.crud.DeleteTest" />
+      <option name="METHOD_NAME" value="deleteById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteTest.deleteByMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ce.crud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ce.crud" />
+      <option name="MAIN_CLASS_NAME" value="com.ce.crud.DeleteTest" />
+      <option name="METHOD_NAME" value="deleteByMap" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteTest.deleteByWrapper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ce.crud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ce.crud" />
+      <option name="MAIN_CLASS_NAME" value="com.ce.crud.DeleteTest" />
+      <option name="METHOD_NAME" value="deleteByWrapper" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateTest.updateByWrapperLambdaChain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ce.crud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ce.crud" />
+      <option name="MAIN_CLASS_NAME" value="com.ce.crud.UpdateTest" />
+      <option name="METHOD_NAME" value="updateByWrapperLambdaChain" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="crud" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ce.crud.CrudApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="first" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ce.first.FirstApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DeleteTest.deleteByWrapper" />
+        <item itemvalue="JUnit.DeleteTest.deleteBatchIds" />
+        <item itemvalue="JUnit.DeleteTest.deleteByMap" />
+        <item itemvalue="JUnit.DeleteTest.deleteById" />
+        <item itemvalue="JUnit.UpdateTest.updateByWrapperLambdaChain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="NONE" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ef09904-769f-43d7-a093-e02c0eea58ef" name="默认更改列表" comment="" />
+      <created>1602489306819</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602489306819</updated>
+      <workItem from="1602489309414" duration="3029000" />
+      <workItem from="1602493517728" duration="3992000" />
+      <workItem from="1602510178282" duration="5352000" />
+      <workItem from="1602547662554" duration="5707000" />
+      <workItem from="1602567372474" duration="4796000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1156" y="347" key="#Notifications" timestamp="1602567389737">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1156" y="347" key="#Notifications/0.0.1920.1050@0.0.1920.1050" timestamp="1602567389737" />
+    <state x="275" y="26" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602510877197">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="26" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1602510877197" />
+    <state x="1042" y="208" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1602553129830">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1042" y="208" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1602553129830" />
+    <state x="488" y="51" key="#com.intellij.ide.util.MemberChooser" timestamp="1602500831456">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="488" y="51" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1602500831456" />
+    <state x="318" y="292" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1602490101346">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="318" y="292" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.738@0.0.1366.738" timestamp="1602490101346" />
+    <state x="518" y="249" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1602490103413">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="518" y="249" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.738@0.0.1366.738" timestamp="1602490103413" />
+    <state width="1078" height="417" key="GridCell.Tab.0.bottom" timestamp="1602572098252">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1322" height="242" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1602515591179" />
+    <state width="1078" height="417" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1602572098252" />
+    <state width="1078" height="417" key="GridCell.Tab.0.center" timestamp="1602572098252">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1322" height="242" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1602515591178" />
+    <state width="1078" height="417" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1602572098252" />
+    <state width="1078" height="417" key="GridCell.Tab.0.left" timestamp="1602572098252">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1322" height="242" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1602515591178" />
+    <state width="1078" height="417" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1602572098252" />
+    <state width="1078" height="417" key="GridCell.Tab.0.right" timestamp="1602572098252">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1322" height="242" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1602515591179" />
+    <state width="1078" height="417" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1602572098252" />
+    <state width="1240" height="528" key="GridCell.Tab.1.bottom" timestamp="1602569114542">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1240" height="528" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1602569114542" />
+    <state width="1240" height="528" key="GridCell.Tab.1.center" timestamp="1602569114542">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1240" height="528" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1602569114542" />
+    <state width="1240" height="528" key="GridCell.Tab.1.left" timestamp="1602569114541">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1240" height="528" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1602569114541" />
+    <state width="1240" height="528" key="GridCell.Tab.1.right" timestamp="1602569114542">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1240" height="528" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1602569114542" />
+    <state x="263" y="102" key="IDE.errors.dialog" timestamp="1602511673060">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="263" y="102" key="IDE.errors.dialog/0.0.1366.738@0.0.1366.738" timestamp="1602511673060" />
+    <state x="268" y="0" key="SettingsEditor" timestamp="1602567416903">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="191" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1602511808338" />
+    <state x="268" y="0" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1602567416903" />
+    <state x="321" y="28" key="new project wizard" timestamp="1602492154444">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="321" y="28" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1602492154444" />
+    <state x="1180" y="332" key="save.file.as.template.dialog" timestamp="1602553296868">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1180" y="332" key="save.file.as.template.dialog/0.0.1920.1050@0.0.1920.1050" timestamp="1602553296868" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1602511932810">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1602511932810" />
+  </component>
+</project>

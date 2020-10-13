@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/mybatis_plus_test?characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+logging:
+  level:
+    root: warn
+    com.ce.crud.dao: trace
+  pattern:
+    console: '%p %m%n'
+
+mybatis-plus:
+  mapper-locations:
+    - mapper/*
