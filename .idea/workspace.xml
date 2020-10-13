@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ef09904-769f-43d7-a093-e02c0eea58ef" name="默认更改列表" comment="Mybatis plus 入门 主键策略">
-      <change afterPath="$PROJECT_DIR$/crud/src/main/resources/mybatis-plus.xml" afterDir="false" />
+    <list default="true" id="4ef09904-769f-43d7-a093-e02c0eea58ef" name="默认更改列表" comment="Mybatis plus 入门 配置">
+      <change afterPath="$PROJECT_DIR$/crud/src/main/java/com/ce/crud/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/src/main/java/com/ce/crud/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crud/src/test/java/com/ce/crud/ServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crud/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/crud/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/crud/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/target/classes/com/ce/crud/config/MybatisPlusConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/crud/target/classes/com/ce/crud/config/MybatisPlusConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crud/target/classes/com/ce/crud/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/crud/target/classes/com/ce/crud/entity/User.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Mapper" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -76,7 +82,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ARTest.insertOrUpdate">
+  <component name="RunManager" selected="JUnit.ServiceTest.chain2">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -90,7 +96,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ARTest.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ServiceTest.Batch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="crud" />
       <extension name="coverage">
         <pattern>
@@ -99,14 +105,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ce.crud" />
-      <option name="MAIN_CLASS_NAME" value="com.ce.crud.ARTest" />
-      <option name="METHOD_NAME" value="insert" />
+      <option name="MAIN_CLASS_NAME" value="com.ce.crud.ServiceTest" />
+      <option name="METHOD_NAME" value="Batch" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ARTest.insertOrUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ServiceTest.batch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="crud" />
       <extension name="coverage">
         <pattern>
@@ -115,14 +121,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ce.crud" />
-      <option name="MAIN_CLASS_NAME" value="com.ce.crud.ARTest" />
-      <option name="METHOD_NAME" value="insertOrUpdate" />
+      <option name="MAIN_CLASS_NAME" value="com.ce.crud.ServiceTest" />
+      <option name="METHOD_NAME" value="batch" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ARTest.selectById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ServiceTest.chain1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="crud" />
       <extension name="coverage">
         <pattern>
@@ -131,14 +137,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ce.crud" />
-      <option name="MAIN_CLASS_NAME" value="com.ce.crud.ARTest" />
-      <option name="METHOD_NAME" value="selectById" />
+      <option name="MAIN_CLASS_NAME" value="com.ce.crud.ServiceTest" />
+      <option name="METHOD_NAME" value="chain1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ARTest.selectById2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ServiceTest.chain2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="crud" />
       <extension name="coverage">
         <pattern>
@@ -147,14 +153,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ce.crud" />
-      <option name="MAIN_CLASS_NAME" value="com.ce.crud.ARTest" />
-      <option name="METHOD_NAME" value="selectById2" />
+      <option name="MAIN_CLASS_NAME" value="com.ce.crud.ServiceTest" />
+      <option name="METHOD_NAME" value="chain2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ARTest.updateById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ServiceTest.getOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="crud" />
       <extension name="coverage">
         <pattern>
@@ -163,8 +169,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ce.crud" />
-      <option name="MAIN_CLASS_NAME" value="com.ce.crud.ARTest" />
-      <option name="METHOD_NAME" value="updateById" />
+      <option name="MAIN_CLASS_NAME" value="com.ce.crud.ServiceTest" />
+      <option name="METHOD_NAME" value="getOne" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -186,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ARTest.insertOrUpdate" />
-        <item itemvalue="JUnit.ARTest.updateById" />
-        <item itemvalue="JUnit.ARTest.selectById2" />
-        <item itemvalue="JUnit.ARTest.selectById" />
-        <item itemvalue="JUnit.ARTest.insert" />
+        <item itemvalue="JUnit.ServiceTest.chain2" />
+        <item itemvalue="JUnit.ServiceTest.chain1" />
+        <item itemvalue="JUnit.ServiceTest.batch" />
+        <item itemvalue="JUnit.ServiceTest.Batch" />
+        <item itemvalue="JUnit.ServiceTest.getOne" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +216,7 @@
       <workItem from="1602493517728" duration="3992000" />
       <workItem from="1602510178282" duration="5352000" />
       <workItem from="1602547662554" duration="5707000" />
-      <workItem from="1602567372474" duration="12379000" />
+      <workItem from="1602567372474" duration="13948000" />
     </task>
     <task id="LOCAL-00001" summary="Mybatis plus 入门">
       <created>1602572551541</created>
@@ -233,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602585661655</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Mybatis plus 入门 配置">
+      <created>1602587339310</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602587339310</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +256,8 @@
     <MESSAGE value="Mybatis plus 入门" />
     <MESSAGE value="Mybatis plus 入门 AR(ActiveRecord)模式" />
     <MESSAGE value="Mybatis plus 入门 主键策略" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mybatis plus 入门 主键策略" />
+    <MESSAGE value="Mybatis plus 入门 配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mybatis plus 入门 配置" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1156" y="347" key="#Notifications" timestamp="1602567389737">
@@ -270,26 +284,26 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="518" y="249" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.738@0.0.1366.738" timestamp="1602490103413" />
-    <state width="1078" height="417" key="GridCell.Tab.0.bottom" timestamp="1602574820761">
+    <state width="994" height="326" key="GridCell.Tab.0.bottom" timestamp="1602588860988">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1322" height="242" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1602515591179" />
-    <state width="1078" height="417" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1602574820761" />
-    <state width="1078" height="417" key="GridCell.Tab.0.center" timestamp="1602574820761">
+    <state width="994" height="326" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1602588860988" />
+    <state width="994" height="326" key="GridCell.Tab.0.center" timestamp="1602588860987">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1322" height="242" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1602515591178" />
-    <state width="1078" height="417" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1602574820761" />
-    <state width="1078" height="417" key="GridCell.Tab.0.left" timestamp="1602574820760">
+    <state width="994" height="326" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1602588860987" />
+    <state width="994" height="326" key="GridCell.Tab.0.left" timestamp="1602588860987">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1322" height="242" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1602515591178" />
-    <state width="1078" height="417" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1602574820760" />
-    <state width="1078" height="417" key="GridCell.Tab.0.right" timestamp="1602574820761">
+    <state width="994" height="326" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1602588860987" />
+    <state width="994" height="326" key="GridCell.Tab.0.right" timestamp="1602588860988">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1322" height="242" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1602515591179" />
-    <state width="1078" height="417" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1602574820761" />
+    <state width="994" height="326" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1602588860988" />
     <state width="1240" height="528" key="GridCell.Tab.1.bottom" timestamp="1602569114542">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
